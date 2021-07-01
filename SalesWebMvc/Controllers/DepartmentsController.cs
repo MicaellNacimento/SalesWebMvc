@@ -9,7 +9,7 @@ namespace SalesWebMvc.Controllers
 {
     public class DepartmentsController : Controller
     {
-        public IActionResult Index()
+        public IActionResult View()
         {
 
             List<Department> list = new List<Department>();
